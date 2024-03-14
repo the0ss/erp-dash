@@ -6,9 +6,9 @@ import { Chart } from "../Chart/Chart";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col pl-16 pr-28 mt-10 ml-24 gap-6">
-        <div className="row flex gap-4 flex-wrap">
-          <Card className="col min-w-min w-1/4">
+      <div className="flex flex-col px-4 mt-10 ml-24 gap-6">
+        <div className="gap-4 grid xl:grid-cols-4 md:grid-cols-2">
+          <Card className="max-w-sm">
             <h5 className="text-l font-bold tracking-tight text-gray-900 dark:text-white">
               Total Revenue
             </h5>
@@ -19,7 +19,7 @@ export default function Home() {
               +20.1% from last month
             </p>
           </Card>
-          <Card className="col min-w-min w-1/4">
+          <Card className="max-w-sm">
             <h5 className="text-l font-bold tracking-tight text-gray-900 dark:text-white">
               Subscriptions
             </h5>
@@ -30,7 +30,7 @@ export default function Home() {
               +180.1% from last month
             </p>
           </Card>
-          <Card className="col min-w-min w-1/5">
+          <Card className="max-w-sm">
             <h5 className="text-l font-bold tracking-tight text-gray-900 dark:text-white">
               Orders
             </h5>
@@ -41,7 +41,7 @@ export default function Home() {
               +19% from last month
             </p>
           </Card>
-          <Card className="col min-w-min w-1/4">
+          <Card className="max-w-sm">
             <h5 className="text-l font-bold tracking-tight text-gray-900 dark:text-white">
               Total Products
             </h5>
@@ -53,9 +53,9 @@ export default function Home() {
             </p>
           </Card>
         </div>
-        <div className="row flex gap-4 flex-wrap">
-          <Chart/>
-          <Card className="col w-full max-w-md">
+        <div className="gap-4 grid xl:grid-cols-2 md:grid-cols-1">
+          <Chart className="w-full max-w-3xl min-w-min control-pane dark:bg-gray-800 p-4 md:p-6" />
+          <Card className="w-full max-w-lg">
             <div className="mb-4 flex items-center justify-between">
               <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">
                 Latest Customers
@@ -93,7 +93,7 @@ export default function Home() {
                     </div>
                   </div>
                 </li>
-                
+
                 <li className="py-3 sm:py-4">
                   <div className="flex items-center space-x-4">
                     <div className="shrink-0">
