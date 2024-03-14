@@ -4,9 +4,14 @@ import { NavLink } from "react-router-dom";
 
 export default function SideBar() {
   return (
-    <aside className="fixed top-0 left-0 z-40 w-24 flex h-screen flex-col items-center border-r bg-white py-8">
+    <aside className="fixed top-0 left-0 z-40 w-24 flex h-full flex-col items-center border-r bg-white py-8">
       <nav className="flex flex-1 flex-col items-center space-y-6">
-        <a href="#">
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            'rounded-lg ${isActive?"text-orange-700":"text-gray-700"} p-1.5  transition-colors duration-200 hover:bg-gray-100 focus:outline-none'
+          }
+        >
           <svg
             width="40"
             height="46"
@@ -19,7 +24,7 @@ export default function SideBar() {
               fill="black"
             />
           </svg>
-        </a>
+        </NavLink>
 
         <NavLink
           to="/"
