@@ -53,9 +53,9 @@ export default function Home() {
             </p>
           </Card>
         </div>
-        <div className="gap-4 grid xl:grid-cols-2 md:grid-cols-1">
-          <Chart className="w-full max-w-3xl min-w-min control-pane dark:bg-gray-800 p-4 md:p-6" />
-          <Card className="w-full max-w-lg">
+        <div className="gap-4 grid xl:grid-cols-3">
+          <Chart />
+          <Card className="w-full max-w-md">
             <div className="mb-4 flex items-center justify-between">
               <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">
                 Latest Customers

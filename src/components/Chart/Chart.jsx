@@ -274,12 +274,12 @@ export function Chart() {
       .replace(/contrast/i, "Contrast");
   };
   return (
-    <Card >
+    <Card className="w-full max-w-5xl min-w-min control-pane xl:col-span-2 dark:bg-gray-800 p-4 md:p-6">
         <style>{SAMPLE_CSS}</style>
         <div className="control-section">
           <ChartComponent
             id="charts"
-            style={{ textAlign: "center", width:"150%" }}
+            style={{ textAlign: "center", width:"130%" }}
             primaryXAxis={{
               valueType: "DateTime",
               labelFormat: "y",
