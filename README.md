@@ -39,16 +39,15 @@ localhost:5173
 
 1. Dashboard
 
-![Dashboard](image.png)
+![Dashboard](/src/assets/image.png)
 
 2. Products ( New Products can be added and updation and deletion can be done through Action button)
 
-![Prodcuts](image-1.png)
+![Prodcuts](/src/assets/image-1.png)
 
 3. Orders (We can Edit and Delete orders )
 
-![Orders](image-2.png)
-
+![Orders](/src/assets/image-2.png)
 4. Orders Calendar View ( Update and Delete of Orders)
 
-![CalendarView](image-3.png)
+![CalendarView](/src/assets/image-3.png)
