@@ -5,7 +5,7 @@ This is a Simple Front End Project of ERP Dashboard.
 ## Hosted on Vercel
 
 ```
-https://erp-dash-mu.vercel.app/
+https://erp-dash-git-master-the0ss-projects.vercel.app/
 ```
 
 ### Features
